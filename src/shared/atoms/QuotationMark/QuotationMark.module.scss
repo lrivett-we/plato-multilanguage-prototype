@@ -1,0 +1,9 @@
+@import "../../_variables.scss";
+
+.QuotationMark {
+  font-family: map-get($heading-font-families, h1), $backup-heading-font;
+  color: $secondary-colour;
+  font-size: 3.875em;
+  font-weight: bold;
+  line-height: 1.03;
+}

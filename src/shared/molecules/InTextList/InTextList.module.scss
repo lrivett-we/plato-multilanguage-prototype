@@ -1,0 +1,27 @@
+@import "../../_variables.scss";
+
+.InTextList {
+    color: $primary-colour;
+
+    .Heading {
+        margin: 0;
+    }
+
+    hr {
+        margin: 0;
+        width: 25%;
+    }
+
+    ul {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    li {
+        color: map-get($input-colours, hovered);
+    }
+
+    p {
+        margin: 0;
+    }
+}

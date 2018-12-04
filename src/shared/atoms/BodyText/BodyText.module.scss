@@ -1,0 +1,24 @@
+@import "../../_variables.scss";
+
+.BodyText {
+  margin: 0;
+  color: $primary-colour;
+}
+
+.BodyLarge {
+  font-family: map-get($body-font-families, large), $backup-body-font;
+  font-size: map-get($body-sizes, large);
+  line-height: map-get($body-line-heights, large);
+}
+.BodyMain {
+  font-family: map-get($body-font-families, main), $backup-body-font;
+  font-size: map-get($body-sizes, main);
+  line-height: map-get($body-line-heights, main);
+  font-weight: 600;
+}
+.BodySmall {
+  font-family: map-get($body-font-families, small), $backup-body-font;
+  font-size: map-get($body-sizes, small);
+  line-height: map-get($body-line-heights, small);
+  font-weight: 600;
+}

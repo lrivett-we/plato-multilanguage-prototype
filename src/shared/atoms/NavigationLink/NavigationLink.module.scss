@@ -1,0 +1,13 @@
+@import "../../_variables.scss";
+
+.NavigationLink {
+    color: #1d2530;
+    font-size: 13px;
+    font-family: map-get($body-font-families, h4);
+    font-weight: 400;
+
+    &:hover {
+        color: #1d2530;
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,16 @@
+.BlockQuote {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  min-height: 160px;
+  position: relative;
+  .Quotation {
+    flex-grow: 1;
+  }
+  .QuotationMark {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 100%;
+  }
+}

@@ -1,0 +1,38 @@
+#!/bin/bash
+command=$1
+shift
+case $command in
+  id)
+    source .env.development
+    echo ${SPACE_ID}
+    ;;
+  token)
+    source .env.development
+    echo ${ACCESS_TOKEN}
+    ;;
+  name)
+    source .env.development
+    node src/storyblok-scripts/get-space.js ${SPACE_ID} | head -1
+    ;;
+  setup)
+    node src/storyblok-scripts/setup-files.js
+    ;;
+  list)
+    node src/storyblok-scripts/list-spaces.js
+    ;;
+  get)
+    node src/storyblok-scripts/get-space.js "$@"
+    ;;
+  new)
+    node src/storyblok-scripts/new-space.js "$@"
+    ;;
+  copy)
+    node src/storyblok-scripts/duplicate-space.js "$@"
+    ;;
+  update)
+    node src/storyblok-scripts/storyblok-update.js
+    ;;
+  refactor)
+    node src/storyblok-scripts/storyblok-refactor.js "$@"
+    ;;
+esac

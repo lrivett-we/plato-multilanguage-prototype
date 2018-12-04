@@ -1,0 +1,25 @@
+
+.RelatedArticleLink {
+  width: 75%;
+  .RelatedArticleHeader {
+    width: 40%;
+  }
+  .RelatedArticleBlock {
+    display: flex;
+    .RelatedArticleImage {
+      margin: auto;
+      flex: 0 0 40%;
+      height: auto;
+      text-align: center;
+      overflow: hidden;
+      img {
+        width: 100%;
+      }
+    }
+    .RelatedArticleTitle {
+      padding-left: 1em;
+      margin: 0;
+      flex: 0 0 60%;
+    }
+  }
+}

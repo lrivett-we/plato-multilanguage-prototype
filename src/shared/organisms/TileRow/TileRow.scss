@@ -1,0 +1,8 @@
+.TileRow {
+  height: 350px;
+  display: flex;
+
+  .TileRowTile {
+    flex: 1 0 33.33%;
+  }
+}

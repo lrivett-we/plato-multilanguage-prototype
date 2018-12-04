@@ -1,0 +1,25 @@
+@import "../../_variables.scss";
+
+.AuthorInfo {
+    display: flex;
+    flex-direction: column;
+
+    .Avatar {
+        margin-bottom: 30px;
+    }
+
+    .LightBody {
+        margin: 0;
+        color: rgba(25,41,79,0.6);
+    }
+
+    .AuthorBreakLine {
+        background-color: $secondary-colour;
+        width: 50px;
+        height: 7px;
+    }
+
+    .AuthorName {
+        color: rgba(25,41,79, 1);
+    }
+}

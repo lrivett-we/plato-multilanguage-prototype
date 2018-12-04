@@ -1,0 +1,9 @@
+@import "../../_variables.scss";
+
+.TitleBar {
+    display: flex;
+    
+    .TitleBarContent {
+      margin-left: 5%;
+    }
+}

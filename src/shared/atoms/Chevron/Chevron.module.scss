@@ -1,0 +1,23 @@
+@import "../../_variables.scss";
+
+.Chevron {
+  margin-left: 0.5em;
+	border-style: solid;
+	border-width: 0.05em 0.05em 0 0;
+	display: inline-block;
+	height: 0.5em;
+	vertical-align: middle;
+	width: 0.5em;
+}
+
+.ChevronRight {
+	transform: rotate(45deg);
+}
+
+.ChevronLeft {
+	transform: rotate(225deg);
+}
+
+.ChevronDown {
+	transform: rotate(135deg);
+}

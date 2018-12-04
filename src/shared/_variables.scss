@@ -1,0 +1,73 @@
+$primary-colour: #19294f;
+$secondary-colour: #00aeef;
+$base-black-colour: #1d2530;
+$base-grey-colour: #c5d0de;
+$base-light-blue-colour: #f1f4f8;
+$brand-orange-colour: #f3624f;
+$brand-pink-colour: #ec3f66;
+$brand-bluesteel-colour: #878ec3;
+$brand-green-colour: #0ea68b;
+$brand-accessible-blue-colour: #007fad;
+$brand-gold-colour: #ffde30;
+$disabled-grey-colour: #949494;
+
+$backup-heading-font: Verdana;
+$backup-body-font: "Times New Roman";
+
+$input-colours: (
+  placeholder: #dfe3e9,
+  hovered: #ced0da,
+  focused: $secondary-colour,
+  inputted: #dfe3e9,
+  error: $brand-pink-colour,
+  success: $brand-green-colour,
+  disabled: $disabled-grey-colour
+);
+
+$heading-line-heights: (
+  h1: 1.21,
+  h2: 1.31,
+  h3: 1.38,
+  h4: 1.4,
+  h5: 1.38,
+  h6: 1.82
+);
+
+$heading-sizes: (
+  h1: 3rem,
+  h2: 2rem,
+  h3: 1.625rem,
+  h4: 1.25rem,
+  h5: 1rem,
+  h6: 0.6875rem
+);
+
+$heading-font-families: (
+  h1: Soleil,
+  h2: Soleil,
+  h3: MercuryTextG1,
+  h4: Soleil,
+  h5: Soleil,
+  h6: SoleilBk
+);
+
+$body-line-heights: (
+  large: 1.33,
+  main: 1.69,
+  small: 1.62
+);
+
+$body-sizes: (
+  large: 1.125em,
+  main: 1em,
+  small: 0.8125em
+);
+
+$body-font-families: (
+  large: MercuryDisplay-Roman,
+  main: MercuryDisplay,
+  small: MercuryTextG1
+);
+
+:export {baseGreyColour: $base-grey-colour;};
+:export {primaryColour: $primary-colour};

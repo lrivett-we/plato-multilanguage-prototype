@@ -1,0 +1,33 @@
+.BreadcrumbWrapper {
+  margin: 10px;
+}
+
+.BlogPage {
+  margin: 5%;
+
+  .CreditedImageWrapper {
+    margin-top: 50px;
+  }
+
+  .BlogBody {
+    display: flex;
+    margin-top: 50px;
+
+    .ShareBarWrapper {
+      flex-basis: 15%;
+    }
+
+    .BlogBodyWrapper {
+      flex-basis: 85%;
+    }
+
+    .BlogBodyComponent {
+      margin: 40px;
+      margin-right: 200px;
+    }
+  }
+
+  .AfterBlogBody {
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,11 @@
+@import "../../_variables.scss";
+
+.Breadcrumb {
+	margin-left: 0.5em;
+	font-family: map-get($body-font-families, small);
+	font-size: 12px;
+	letter-spacing: 0.4px;
+	color: $primary-colour;
+	line-height: 1.75;
+	font-weight: 600;
+}

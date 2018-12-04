@@ -1,0 +1,11 @@
+.QuoteParagraph {
+  display: flex;
+  .BlockQuote {
+    flex: 0 0 50%;
+    padding-right: 30px;
+  }
+  .Paragraph {
+    flex: 1 0 50%;
+    padding-left: 30px;
+  }
+}

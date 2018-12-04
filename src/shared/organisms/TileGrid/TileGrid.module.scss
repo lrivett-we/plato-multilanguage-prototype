@@ -1,0 +1,23 @@
+.TileGrid {
+  background-color: "white";
+
+  .TileGridRow {
+    height: 350px;
+    display: flex;
+    .TileGridTopLeft {
+      flex: 1 0 25%;
+    }
+    .TileGridTopRight {
+      flex: 0 1 75%;
+    }
+    .TileGridMiddle {
+      flex: 0 1 66.67%;
+    }
+    .TileGridDonate {
+      flex: 1 0 33.33%;
+    }
+    .TileGridBottom {
+      flex: 1 0 33.33%;
+    }
+  }
+}
