@@ -18,6 +18,7 @@ module.exports = {
     spaceId: process.env.SPACE_ID,
     oauthToken: process.env.OAUTH_TOKEN,
     accessToken: process.env.ACCESS_TOKEN,
+    productionLocale: process.env.LOCALE || null,
   },
   plugins: [
     "gatsby-plugin-react-helmet",
