@@ -1,0 +1,9 @@
+#!/bin/bash
+yarn update
+
+# Publish hook for plato-multilanguage-prototype-en-ca.netlify.com
+curl -X POST -d {} https://api.netlify.com/build_hooks/5c08024a02ed8337512e37f5
+# Publish hook for plato-multilanguage-prototype-en-us.netlify.com
+curl -X POST -d {} https://api.netlify.com/build_hooks/5c080515c6aed6751a73e5e9
+
+yarn build
