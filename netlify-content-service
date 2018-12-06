@@ -5,5 +5,7 @@ yarn update
 curl -X POST -d {} https://api.netlify.com/build_hooks/5c08024a02ed8337512e37f5
 # Publish hook for plato-multilanguage-prototype-en-us.netlify.com
 curl -X POST -d {} https://api.netlify.com/build_hooks/5c080515c6aed6751a73e5e9
+# Publish hook for plato-multilanguage-prototype-prod.netlify.com
+curl -X POST -d {} https://api.netlify.com/build_hooks/5c0970b8c6aed6564c485e88
 
 yarn build

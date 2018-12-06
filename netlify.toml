@@ -1,0 +1,6 @@
+
+[context."locale/en_ca".environment]
+  LOCALE = "en_ca"
+
+[context."locale/en_us".environment]
+  LOCALE = "en_us"
